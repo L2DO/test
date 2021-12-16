@@ -7,5 +7,9 @@ def main():
     udp_sock.sendto(recv_data,("",7788))
 
 
+def print():
+    print("new line")
+
+
 if __name__ == "__main__":
     main()
